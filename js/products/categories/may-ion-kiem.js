@@ -16,7 +16,7 @@ define([], function () {
 		  old: "106,000,000",
         },
         code: "SD501",
-        details: `Máy Ion Kiềm Kangen SD501 là thiết bị đạt chứng nhận y tế nổi tiếng được sử dụng rộng rãi ở các bệnh viện lớn của Nhật và được hơn 150 quốc gia trên toàn thế giới tin dùng như: Mỹ, Canada, Pháp, Ý, Hàn Quốc, Nhật Bản, Singapore, Malaysia,...Đặc biệt, dòng máy này đạt 5 chứng nhận tiêu chuẩn hàng đầu trong nước và quốc tế: ISO 13485, ISO 9001, ISO 14001…`,
+        details: "Máy Ion Kiềm Kangen SD501 là thiết bị đạt chứng nhận y tế nổi tiếng được sử dụng rộng rãi ở các bệnh viện lớn của Nhật và được hơn 150 quốc gia trên toàn thế giới tin dùng như: Mỹ, Canada, Pháp, Ý, Hàn Quốc, Nhật Bản, Singapore, Malaysia,...Đặc biệt, dòng máy này đạt 5 chứng nhận tiêu chuẩn hàng đầu trong nước và quốc tế: ISO 13485, ISO 9001, ISO 14001…",
         thumb: "may-dien-giai-ion-kiem-kangen-leveluk-sd501-1207.jpg",
         gallery: ["may-dien-giai-ion-kiem-kangen-leveluk-sd501-1207.jpg"],
       },
