@@ -10,7 +10,7 @@ $message_field = check_input($_POST["message_field"]);
 $to = "quochoangdang96@gmail.com";
 
 if ($message_field!=="") {
-    $subject = "Callback! From the site -Triablo- was sent an message!";
+    $subject = "Callback! From the site -NanoGeyser- was sent an message!";
     $message = file_get_contents('templates/message.html');
 
     // Fill form
@@ -20,7 +20,7 @@ if ($message_field!=="") {
     $message = str_replace('{{ message }}', $message_field, $message);
 } else {
     $form = 'product-form';
-    $subject = "Client order! From the site -Triablo- was sent an order!";
+    $subject = "Client order! From the site -NanoGeyser- was sent an order!";
     $message = file_get_contents('templates/mail.html');
 
     // Fill form

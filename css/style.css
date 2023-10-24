@@ -1580,7 +1580,7 @@ nav {
   padding-right: 10px;
 }
 .order-list-block .order-list:empty:before {
-  content: "It's empty here ...";
+  content: "Giỏ hàng trống ...";
   display: block;
   font-size: 14px;
   color: #353535;
@@ -2902,86 +2902,6 @@ nav {
   -ms-animation: colorChange 9s linear infinite alternate;
   -o-animation: colorChange 9s linear infinite alternate;
   animation: colorChange 9s linear infinite alternate;
-}
-@-webkit-keyframes reveal {
-  0 {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes reveal {
-  0 {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-ms-keyframes reveal {
-  0 {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes reveal {
-  0 {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes reveal {
-  0 {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes draw {
-  0 {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -1485;
-  }
-}
-@-moz-keyframes draw {
-  0 {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -1485;
-  }
-}
-@-ms-keyframes draw {
-  0 {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -1485;
-  }
-}
-@-o-keyframes draw {
-  0 {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -1485;
-  }
-}
-@keyframes draw {
-  0 {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -1485;
-  }
 }
 @-webkit-keyframes colorChange {
   0% {

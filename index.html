@@ -1,15 +1,16 @@
 <!doctype html>
 <html>
+
 <head>
-	<title>Triablo - eCommerce Landing Page</title>
-	<meta name="description" content=""/>
+	<title>Nano Geyser - Ion Kiềm</title>
+	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 
-	<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700italic&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
- 	<link href="css/mobilemenu.css" rel="stylesheet">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&amp;subset=latin,cyrillic-ext'
+		rel='stylesheet' type='text/css'>
+	<link href="css/mobilemenu.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 	<link href="css/simple-line-icons.css" rel="stylesheet">
 	<link href="css/foundation.min.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
@@ -24,14 +25,16 @@
 	<script src="js/lib/modernizr.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
-<body data-currency="$">
+
+<body data-currency="₫">
 	<span class="theme-bg-c"></span>
 	<div class="preloader-block">
 		<div class="preloader-container">
-			<svg id="Layer_1" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 600 690" enable-background="new 0 0 600 690" xml:space="preserve">
+			<svg id="Layer_1" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 600 690"
+				enable-background="new 0 0 600 690" xml:space="preserve">
 				<polygon fill="#FFFFFF" class="polygon" stroke="#A7A9AC" stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441 
-					545.441,557.559 "/>
-				<polygon fill="#8856A3"  class="inner" points="96.037,535.115 300,168.885 503.963,535.115 "/>
+					545.441,557.559 " />
+				<polygon fill="#8856A3" class="inner" points="96.037,535.115 300,168.885 503.963,535.115 " />
 			</svg>
 		</div>
 	</div>
@@ -41,35 +44,35 @@
 				<div class="row">
 					<div class="column large-2">
 						<div class="logo-wrapper">
-							<img src="images/logo.png" alt="" class="logo-image">
+							<img src="images/sb-logo.png" alt="" class="logo-image">
 						</div>
 					</div>
 					<div class="column large-10">
 						<nav class="js-navs-list">
 							<ul class="menu-page">
 								<li class="menu-item">
-									<a href="#products">Products</a>
+									<a href="#products">Sản Phẩm</a>
 								</li>
 								<li class="menu-item">
-									<a href="#companies">Brands</a>
+									<a href="#companies">Thương Hiệu</a>
 								</li>
 								<li class="menu-item">
-									<a href="#why-us">Why Triablo</a>
+									<a href="#why-us">Nano Geyser</a>
 								</li>
 								<!-- <li class="menu-item">
 									<a href="#team-members">Team</a>
 								</li> -->
 								<li class="menu-item">
-									<a href="#reviews">Reviews</a>
+									<a href="#reviews">Đánh Giá</a>
 								</li>
 								<li class="menu-item">
-									<a href="#about">About us</a>
+									<a href="#about">Về Chúng Tôi</a>
 								</li>
 								<li class="menu-item">
-									<a href="#news">News</a>
+									<a href="#news">Tin Tức</a>
 								</li>
 								<li class="menu-item">
-									<a href="#contacts">Contacts</a>
+									<a href="#contacts">Liên Hệ</a>
 								</li>
 							</ul>
 						</nav>
@@ -82,8 +85,8 @@
 					<div class="header-content">
 						<div class="row">
 							<div class="columns large-12 medium-12 small-12">
-								<div class="page-quote-block" >
-									<span class="theme-bg-c js-procede-btn button js-slidedown-reveal">Check It</span>
+								<div class="page-quote-block">
+									<span class="theme-bg-c js-procede-btn button js-slidedown-reveal">Xem Ngay</span>
 								</div>
 							</div>
 						</div>
@@ -91,10 +94,19 @@
 				</div>
 			</div>
 
-			<div class="image-bg-v js-bgi-v">
+			<div class="carousel-wrapper" id="main-carousel">
+				<div class="carousel-block">
+					<div class="owl-header">
+						<ul class="slides header-carousel">
+							<li><img src="images/photo-bg.jpg" alt=""></li>
+							<li><img src="images/photo-bg2.jpg" alt=""></li>
+							<li><img src="images/photo-bg3.jpg" alt=""></li>
+							<!-- <li><img src="http://placehold.it/1900x1267" alt=""></li> -->
+						</ul>
+						<div class="shadow-bg"></div>
+					</div>
+				</div>
 			</div>
-
-
 			<div class="mobile-menu-wrapper">
 				<div class="toggle-btn-block js-toggle-menu">
 					<div class="toggle-btn"></div>
@@ -103,12 +115,11 @@
 				</div>
 			</div>
 		</header>
-		<section role="main">	
-
+		<section role="main">
 			<section class="our-products l-section-padding" id="products">
 				<div class="row">
 					<div class="columns large-12">
-						<h2 class="l-section-title"><span class="title-text">We make you awesome</span></h2>
+						<h2 class="l-section-title"><span class="title-text">Nano Geyser - Cuộc Sống Của Bạn</span></h2>
 					</div>
 				</div>
 				<div class="row">
@@ -132,10 +143,10 @@
 										<div class="product-presentation-content js-products-container">
 											<div class="category-list">
 												<dl class="select">
-												    <dt>
-												        <a href="#"><span data-icon="&#xe067;"></span></a>
-												    </dt>
-												    <dd></dd>
+													<dt>
+														<a href="#"><span data-icon="&#xe067;"></span></a>
+													</dt>
+													<dd></dd>
 												</dl>
 											</div>
 											<div class="slider-preloader">
@@ -149,7 +160,7 @@
 													</div>
 												</div>
 											</div>
-											
+
 										</div>
 									</div>
 								</div>
@@ -158,7 +169,7 @@
 
 					</div>
 				</div>
-			</section>		
+			</section>
 
 			<section class="our-partners l-section-padding" id="companies">
 				<div class="row">
@@ -168,45 +179,32 @@
 								<li>
 									<div class="partners-item">
 										<a href="#">
-											<img src="http://placehold.it/220x40" alt=""/>
+											<img src="images/brand-logo/cen-brand.png" alt="" />
 										</a>
 									</div>
 								</li>
 								<li>
 									<div class="partners-item">
 										<a href="#">
-											<img src="http://placehold.it/220x40" alt=""/>
+											<img src="images/brand-logo/eco-brand.jpg" alt="" />
 										</a>
 									</div>
 								</li>
 								<li>
 									<div class="partners-item">
 										<a href="#">
-											<img src="http://placehold.it/220x40" alt=""/>
+											<img src="images/brand-logo/nutri-brand.jpg" alt="" />
 										</a>
 									</div>
 								</li>
 								<li>
 									<div class="partners-item">
 										<a href="#">
-											<img src="http://placehold.it/220x40" alt=""/>
+											<img src="images/brand-logo/vnvc-brand.png" alt="" />
 										</a>
 									</div>
 								</li>
-								<li>
-									<div class="partners-item">
-										<a href="#">
-											<img src="http://placehold.it/220x40" alt=""/>
-										</a>
-									</div>
-								</li>
-								<li>
-									<div class="partners-item">
-										<a href="#">
-											<img src="http://placehold.it/220x40" alt=""/>
-										</a>
-									</div>
-								</li>
+
 							</ul>
 						</div>
 					</div>
@@ -216,7 +214,8 @@
 			<section class="why-we" id="why-us">
 				<div class="row">
 					<div class="columns large-12">
-						<h2 class="l-section-title l-white"><span class="title-text">Why people choose Triablo?</span></h2>
+						<h2 class="l-section-title l-white"><span class="title-text">Tại sao mọi người chọn Ion Kiềm của Nano Geyser?</span>
+						</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -226,41 +225,52 @@
 							<div class="why-eleme-block l-dis-ib left-info-block">
 								<div class="why-us-item">
 									<div class="item-desc-block">
-										<h4 class="item-title">Preorder system</h4>									
-										<p class="item-description">Donec fermentum vulputate nisl non sollicitudin.Vivamus sagittis fermentum dolor, porta adipiscing magna.</p>
+										<h4 class="item-title">Tư vấn chuẩn mực</h4>
+										<p class="item-description">100% các kỹ thuật viên tư vấn được đào tạo bài bản
+											và chuyên nghiệp, chuẩn mực.</p>
 									</div>
-									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe055;"></span></div>
+									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe010;"></span>
+									</div>
 								</div>
 								<div class="why-us-item">
 									<div class="item-desc-block">
-										<h4 class="item-title">Retina ready</h4>									
-										<p class="item-description">Donec fermentum vulputate nisl non sollicitudin.Vivamus sagittis fermentum dolor, porta adipiscing magna.</p>
+										<h4 class="item-title">Uy Tín & chất lượng</h4>
+										<p class="item-description">100% sản phẩm bán tại Nano Geyser là sản phẩm chính
+											hãng, nhập khẩu, lắp ráp và phân phối.</p>
 									</div>
-									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe043;"></span></div>
+									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe034;"></span>
+									</div>
 								</div>
 							</div>
 
 							<div class="why-eleme-block l-dis-ib right-info-block">
 								<div class="why-us-item">
 									<div class="item-desc-block">
-										<h4 class="item-title">Responsive layout</h4>									
-										<p class="item-description">Donec fermentum vulputate nisl non sollicitudin.Vivamus sagittis fermentum dolor, porta adipiscing magna.</p>
+										<h4 class="item-title">Tận tâm và chu đáo</h4>
+										<p class="item-description">Với giá trị cốt lõi lấy khách hàng làm trung tâm &
+											luôn luôn tận tâm chúng tôi luôn ưu tiên đặt quyền lợi khách hàng lên hàng
+											đầu.</p>
 									</div>
-									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe010;"></span></div>
+									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe043;"></span>
+									</div>
 								</div>
 								<div class="why-us-item">
 									<div class="item-desc-block">
-										<h4 class="item-title">Material design</h4>									
-										<p class="item-description">Donec fermentum vulputate nisl non sollicitudin.Vivamus sagittis fermentum dolor, porta adipiscing magna.</p>
+										<h4 class="item-title">Bảo hành bảo trì tốt</h4>
+										<p class="item-description">100% sản phẩm được bảo hành, bảo trì tại nhà theo
+											đúng tiêu chuẩn 5 năm chính hãng.</p>
 									</div>
-									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe034;"></span></div>
+									<div class="item-icon-block"><span class="item-icon" data-icon="&#xe055;"></span>
+									</div>
 								</div>
 							</div>
 
 							<div class="why-us-image">
-								<div class="left-image" style="background-image: url(http://placehold.it/335x586)"></div>
-								<img src="http://placehold.it/335x584" alt="">
-								<div class="right-image" style="background-image: url(http://placehold.it/335x585)"></div>
+								<div class="left-image" style="background-image: url('images/why-us/album-may-loc-nuoc-gayser-161.png')">
+								</div>
+								<img src='images/why-us/album-lap-dat-may-loc-nuoc-eco-max-tai-nha-khach-hang-221.JPG' alt="">
+								<div class="right-image" style="background-image: url('images/why-us/album-may-loc-nuoc-gayser-213.png')">
+								</div>
 							</div>
 
 						</div>
@@ -406,63 +416,80 @@
 				<div class="row">
 					<div class="column large-9 medium-9">
 						<div class="checkit-section-title">
-							<h4>Excited about what's waiting for you? Check out our new summer collection.</h4>
+							<h4>"Hãy cùng xem tất cả sản phẩm đang ưu đãi của chúng tôi! Bạn có hào hứng không?"</h4>
 						</div>
 					</div>
 					<div class="column large-3 medium-3">
-						<div class="checkit-btn-block"><span class="checkit-btn l-dis-ib button">Check it out</span></div>
+						<div class="checkit-btn-block"><a class="checkit-btn l-dis-ib button"
+								href="https://nanogeyservietnam.com.vn" target="_blank">Mua Ngay</a>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<section class="testimonial-slider parallax-section l-section-padding" id="reviews">
-						<div class="testimonials-list-container">
-							<ul class="testimonials-list">
+				<div class="testimonials-list-container">
+					<ul class="testimonials-list">
 
-								<li class="testimonial-item">
-									<div class="testimonial-container">
-										<div class="testimonial-auth">
-											<div class="testim-auth-photo">
-												<img src="http://placehold.it/140x140" alt="">
-											</div>
-											<p class="short-info">John McKenzey,<span class="auth-country"> California</span></p>
-										</div>
-										<p class="main-testimonial">Thank you so much. I really didn’t expect such a quick and positive response! Often when something goes wrong with a product it seems the consumer is the one that gets the “raw end of the deal.</p>
+						<li class="testimonial-item">
+							<div class="testimonial-container">
+								<div class="testimonial-auth">
+									<div class="testim-auth-photo">
+										<img src="images/review/chi-trang.jpg" alt="">
 									</div>
-								</li>
-								<li class="testimonial-item">
-									<div class="testimonial-container">
-										<div class="testimonial-auth">
-											<div class="testim-auth-photo">
-												<img src="http://placehold.it/140x140" alt="">
-											</div>
-											<p class="short-info">John McKenzey,<span class="auth-country"> California</span></p>
-										</div>
-										<p class="main-testimonial">Thank you so much. I really didn’t expect such a quick and positive response! Often when something goes wrong with a product it seems the consumer is the one that gets the “raw end of the deal it seems the consumer is the one that gets the “raw end of the deal.</p>
+									<p class="short-info">Chị Hương Lan,<span class="auth-country"> Hà Nội</span>
+									</p>
+								</div>
+								<p class="main-testimonial">Mình đã mua và sử dụng máy lọc nước Nano Geyser thực sự rất
+									hài lòng cả về sản phẩm cũng như chất lượng phục vụ từ nhãn hàng. Các sản phẩm có
+									chứng chỉ, chứng nhận chất lượng rõ ràng nên mình rất yên tâm.</p>
+							</div>
+						</li>
+						<li class="testimonial-item">
+							<div class="testimonial-container">
+								<div class="testimonial-auth">
+									<div class="testim-auth-photo">
+										<img src="images/review/anh-hung.jpg" alt="">
 									</div>
-								</li>
-								<li class="testimonial-item">
-									<div class="testimonial-container">
-										<div class="testimonial-auth">
-											<div class="testim-auth-photo">
-												<img src="http://placehold.it/140x140" alt="">
-											</div>
-											<p class="short-info">John McKenzey,<span class="auth-country"> California</span></p>
-										</div>
-										<p class="main-testimonial">Thank you so much. I really didn’t expect such a quick and positive response! Often when something goes wrong with a product it seems the consumer is the one that gets the “raw end of the deal it seems the consumer is the one that gets the “raw end of the deal.</p>
+									<p class="short-info">Anh Tùng,<span class="auth-country"> Bắc Ninh</span>
+									</p>
+								</div>
+								<p class="main-testimonial">Mình đang sử dụng sản phẩm máy lọc nước Nano Geyser Eco8 sản
+									phẩm rất tốt và ổn định. Sản phẩm có chứng chỉ quốc gia nước uống đóng chai trực
+									tiếp QCVN 6-1:2010/BYT nên mình càng yên tâm khi sử dụng.</p>
+							</div>
+						</li>
+						<li class="testimonial-item">
+							<div class="testimonial-container">
+								<div class="testimonial-auth">
+									<div class="testim-auth-photo">
+										<img src="images/review/chi-huong-lan.jpg" alt="">
 									</div>
-								</li>
+									<p class="short-info">Chị Hòa,<span class="auth-country"> TP. Hồ Chí Minh</span>
+									</p>
+								</div>
+								<p class="main-testimonial">Công ty mình đang sử dụng dịch vụ thuê máy lọc nước của Nano
+									Geyser thực sự vô cùng hài lòng về dịch vụ bởi công ty cung cấp. Lịch thay lõi, vệ
+									sinh bảo dưỡng máy rất đúng hạn đảm bảo nguồn nước sạch cho toàn công ty.</p>
+							</div>
+						</li>
 
-							</ul>
-						</div>
+					</ul>
+				</div>
 			</section>
 
 			<section class="news-section l-section-padding" id="news">
 				<div class="row">
 					<div class="column large-12">
 						<h2 class="l-section-title subtitle">
-							<span class="title-text">Think about it</span>
-							<span class="section-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</span>
+							<span class="title-text">TIN TỨC NỔI BẬT</span>
+							<span class="section-subtitle">Nơi bạn có thể tìm thấy những thông tin cập nhật và sự kiện
+								quan trọng nhất về sản phẩm và dịch vụ của chúng tôi. Tại đây, chúng tôi không chỉ cung
+								cấp thông tin về các chương trình khuyến mãi hấp dẫn mà còn chia sẻ những bí quyết sử
+								dụng sản phẩm, đánh giá từ khách hàng, và các xu hướng thị trường mới nhất. Bạn cũng sẽ
+								có cơ hội cập nhật về các sự kiện đặc biệt như buổi ra mắt sản phẩm, chương trình tri ân
+								khách hàng, và các hoạt động cộng đồng mà chúng tôi tham gia. Đừng bỏ lỡ cơ hội được tận
+								hưởng những tin tức thú vị và bổ ích tại phần này!</span>
 						</h2>
 					</div>
 				</div>
@@ -484,9 +511,16 @@
 										</div>
 										<div class="main-news-block">
 											<p class="news-date l-dis-ib">3 September 2014</p>
-											<a href="#"><h4 class="news-title l-dis-ib">John Doe Nabs Lead in Adaptation of 'Paper Towns'</h4></a>
+											<a href="#">
+												<h4 class="news-title l-dis-ib">John Doe Nabs Lead in Adaptation of
+													'Paper Towns'</h4>
+											</a>
 											<p class="main-news l-dis-ib">
-												John Doe just added a major role to her quickly growing acting resume. As if teens (and, okay, quite a few adults) needed another reason to idolize the Brit, she just signed on to play the female lead in the film adaptation of The Fault in Our Stars author John Green’s YA book, Paper Towns.
+												John Doe just added a major role to her quickly growing acting resume.
+												As if teens (and, okay, quite a few adults) needed another reason to
+												idolize the Brit, she just signed on to play the female lead in the film
+												adaptation of The Fault in Our Stars author John Green’s YA book, Paper
+												Towns.
 											</p>
 										</div>
 									</div>
@@ -505,9 +539,15 @@
 										</div>
 										<div class="main-news-block">
 											<p class="news-date l-dis-ib">4 September 2014</p>
-											<a href="#"><h4 class="news-title l-dis-ib">How to Nail Swedish, French, and American Style All at Once</h4></a>
+											<a href="#">
+												<h4 class="news-title l-dis-ib">How to Nail Swedish, French, and
+													American Style All at Once</h4>
+											</a>
 											<p class="main-news l-dis-ib">
-												At this point, French illustrator, photographer, and all-around-cool-lady Garance Doré doesn't just run a blog, she runs a brand. Her wispy illustrations, once loved by only a corner of the Internet, decorate Gap T-, Kate Spade bags.
+												At this point, French illustrator, photographer, and
+												all-around-cool-lady Garance Doré doesn't just run a blog, she runs a
+												brand. Her wispy illustrations, once loved by only a corner of the
+												Internet, decorate Gap T-, Kate Spade bags.
 											</p>
 										</div>
 									</div>
@@ -526,9 +566,16 @@
 										</div>
 										<div class="main-news-block">
 											<p class="news-date l-dis-ib">6 September 2014</p>
-											<a href="#"><h4 class="news-title l-dis-ib">High School's Super-Strict Dress Code</h4></a>
+											<a href="#">
+												<h4 class="news-title l-dis-ib">High School's Super-Strict Dress Code
+												</h4>
+											</a>
 											<p class="main-news l-dis-ib">
-												Here's a list of clothing that can land you in detention at Tottenville High School: spaghetti-strap tank tops, short shorts, miniskirts, leggings, skinny jeans, halter tops, and even headbands. The Staten Island, New York school is cracking down on its dress code in a big way—and that's left students outraged. 
+												Here's a list of clothing that can land you in detention at Tottenville
+												High School: spaghetti-strap tank tops, short shorts, miniskirts,
+												leggings, skinny jeans, halter tops, and even headbands. The Staten
+												Island, New York school is cracking down on its dress code in a big
+												way—and that's left students outraged.
 											</p>
 										</div>
 									</div>
@@ -547,9 +594,14 @@
 										</div>
 										<div class="main-news-block">
 											<p class="news-date l-dis-ib">8 September 2014</p>
-											<a href="#"><h4 class="news-title l-dis-ib">23 SPRING TRENDS FROM THE RUNWAYS</h4></a>
+											<a href="#">
+												<h4 class="news-title l-dis-ib">23 SPRING TRENDS FROM THE RUNWAYS</h4>
+											</a>
 											<p class="main-news l-dis-ib">
-												There are plenty of reasons why we are excited for next spring, but digesting the trends from the runway of New York Fashion Week has us positively giddy. Check out all of the great things to look forward to next season. A few of them you might be able to try out right now.
+												There are plenty of reasons why we are excited for next spring, but
+												digesting the trends from the runway of New York Fashion Week has us
+												positively giddy. Check out all of the great things to look forward to
+												next season. A few of them you might be able to try out right now.
 											</p>
 										</div>
 									</div>
@@ -569,9 +621,14 @@
 										</div>
 										<div class="main-news-block">
 											<p class="news-date l-dis-ib">11 September 2014</p>
-											<a href="#"><h4 class="news-title l-dis-ib">THE BEST OF LONDON STREET STYLE</h4></a>
+											<a href="#">
+												<h4 class="news-title l-dis-ib">THE BEST OF LONDON STREET STYLE</h4>
+											</a>
 											<p class="main-news l-dis-ib">
-												The fashion month marathon runs on! Our man on the street, Dan Roberts, is capturing all the action at London Fashion Week, from Somerset House and beyond. Here are the best street style snaps from the first stop across the pond.
+												The fashion month marathon runs on! Our man on the street, Dan Roberts,
+												is capturing all the action at London Fashion Week, from Somerset House
+												and beyond. Here are the best street style snaps from the first stop
+												across the pond.
 											</p>
 										</div>
 									</div>
@@ -590,9 +647,16 @@
 										</div>
 										<div class="main-news-block">
 											<p class="news-date l-dis-ib">1 September 2014</p>
-											<a href="#"><h4 class="news-title l-dis-ib">AllSaints Reinvents the Fashion Show Formula</h4></a>
+											<a href="#">
+												<h4 class="news-title l-dis-ib">AllSaints Reinvents the Fashion Show
+													Formula</h4>
+											</a>
 											<p class="main-news l-dis-ib">
-												New York Fashion week has come and gone, but one brand was conspicuously absent from the fray. In lieu of showing at Lincoln Center, as they have the past two seasons, It girl-beloved London brand AllSaints elected instead to host a digital runway show set against an airport backdrop (a metaphor for global expansion and freedom).
+												New York Fashion week has come and gone, but one brand was conspicuously
+												absent from the fray. In lieu of showing at Lincoln Center, as they have
+												the past two seasons, It girl-beloved London brand AllSaints elected
+												instead to host a digital runway show set against an airport backdrop (a
+												metaphor for global expansion and freedom).
 											</p>
 										</div>
 									</div>
@@ -606,14 +670,14 @@
 			<section class="video-section">
 				<span class="js-play-btn video-play-btn">
 					<span class="play-icon-container">
-						<i class="fa fa-play play-icon"></i>
+						<i class="fa fa-solid fa-play play-icon "></i>
 					</span>
 				</span>
-				<video preload="auto" loop class="video-block js-page-video" poster="http://placehold.it/1280x720">
-			        <source src="video/MOTO-HD.mp4" type="video/mp4">
-			        <!-- <source src="video/MOTO-HD.webm" type="video/webm">
+				<video preload="auto" loop class="video-block js-page-video" poster="images/video-thump.jpg">
+					<source src="video/NANO-GEYSER-ECO8-PLUS.mp4" type="video/mp4">
+					<!-- <source src="video/MOTO-HD.webm" type="video/webm">
 			        <source src="video/MOTO-HD.ogv" type="video/ogg"> -->
-			    </video>
+				</video>
 			</section>
 
 			<section class="about-us l-section-padding" id="about">
@@ -628,11 +692,11 @@
 												<i data-icon="&#xe094;"></i>
 											</div>
 											<span class="animated-text">
-												<span id="hours" class="animated-fact">24</span>
+												<span id="hours" class="animated-fact">2</span>
 												<span>h</span>
 											</span>
 										</div>
-										<p class="facts-info">Avarage delivery time</p>
+										<p class="facts-info">Thời gian giao hàng</p>
 									</div>
 								</li>
 								<li class="stats-item large-3 medium-3 small-12">
@@ -642,10 +706,10 @@
 												<i data-icon="&#xe035;"></i>
 											</div>
 											<span class="animated-text">
-												<span id="sold" class="animated-fact">2443</span>
+												<span id="sold" class="animated-fact">>2000</span>
 											</span>
 										</div>
-										<p class="facts-info">Products sold</p>
+										<p class="facts-info">Sản phẩm đã bán</p>
 									</div>
 								</li>
 								<li class="stats-item large-3 medium-3 small-12">
@@ -659,7 +723,7 @@
 												<span>%</span>
 											</span>
 										</div>
-										<p class="facts-info">Happy clients</p>
+										<p class="facts-info">Khách hàng yêu thích</p>
 									</div>
 								</li>
 								<li class="stats-item large-3 medium-3 small-12">
@@ -669,10 +733,10 @@
 												<i data-icon="&#xe028;"></i>
 											</div>
 											<span class="animated-text">
-												<span id="experience" class="animated-fact">20</span>
+												<span id="experience" class="animated-fact">>10</span>
 											</span>
 										</div>
-										<p class="facts-info">Years of experience</p>
+										<p class="facts-info">Năm kinh nghiệm</p>
 									</div>
 								</li>
 							</ul>
@@ -689,13 +753,13 @@
 						<div class="columns large-12">
 							<h2 class="l-section-title">
 								<span class="title-text">
-									contact or find us on <span class="js-map-view show-map-btn">the map</span> 
+									Liên hệ hoặc tìm chúng tôi trên <span class="js-map-view show-map-btn">Bản đồ</span>
 								</span>
 							</h2>
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="fields-view">
 					<form action="sendmail.php" method="post">
 						<div class="row">
@@ -703,7 +767,7 @@
 								<div class="align-center-small">
 									<div class="centered-block">
 
-										<label for="name" class="contact-label">Name</label>
+										<label for="name" class="contact-label">Tên</label>
 										<input type="text" id="name" class="contact-field required" name="name_field">
 									</div>
 									<div class="centered-block">
@@ -711,20 +775,22 @@
 										<input type="text" id="mail" class="contact-field required" name="mail_field">
 									</div>
 									<div class="centered-block">
-										<label for="subject" class="contact-label">Subject</label>
-										<input type="text" id="subject" class="contact-field required" name="subject_field">
+										<label for="subject" class="contact-label">Tiêu đề</label>
+										<input type="text" id="subject" class="contact-field required"
+											name="subject_field">
 									</div>
 								</div>
 							</div>
 							<div class="columns large-6 medium-6">
 								<div class="align-center-small">
 									<div class="centered-block">
-										<label for="message" class="contact-label">Message</label>
-										<textarea id="message" class="contact-field textarea-contact required" name="message_field"></textarea>
+										<label for="message" class="contact-label">Tin nhắn</label>
+										<textarea id="message" class="contact-field textarea-contact required"
+											name="message_field"></textarea>
 
 										<span class="checkout">
 											<span>Send</span>
-											<i class="fa fa-envelope-o"></i>
+											<i class="fa fa-solid fa-envelope"></i>
 										</span>
 									</div>
 								</div>
@@ -735,19 +801,20 @@
 					<div class="socials-list">
 						<ul class="social-icons">
 							<li>
-								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="https://nanogeyservietnam.com.vn/vi" target="_blank"><i
+										class="fa-solid fa-globe"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="fa fa-twitter"></i></a> 
+								<a href="https://geysereco.com/" target="_blank"><i
+										class="fa-brands fa-wordpress"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.facebook.com/nano.geyser.official" target="_blank"><i
+										class="fa-brands fa-facebook"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="fa fa-dribbble"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="fa fa-tumblr"></i></a>
+								<a href="https://shopee.vn/nano_geyser_official" target="_blank"><i
+										class="fa-solid fa-cart-shopping"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -761,13 +828,13 @@
 							<div class="footer-item">
 								<address>
 									<p class="address-item">
-										<span class="heightlight">e-mail:</span> clothes_shop@triablo.com
+										<span class="heightlight">e-mail:</span>  nanogeyser29@gmail.com
 									</p>
 									<p class="address-item">
-										<span class="heightlight">address:</span> New York, Saint Nicholas Avenue 13/1
+										<span class="heightlight">địa chỉ:</span> Phan Trọng Tuệ, Thanh Trì, Hà Nội
 									</p>
 									<p class="address-item">
-										<span class="heightlight">fax:</span> +1 0123-4567-8900 
+										<span class="heightlight">sđt:</span> 0963 456 911
 									</p>
 								</address>
 							</div>
@@ -776,7 +843,7 @@
 								<div class="logo-wrapper">
 									<div class="logo-block">
 										<a href="#main-carousel">
-											<img src="images/footer-logo.png" alt="" class="footer-logo"/>
+											<img src="images/sb-logo.png" alt="" class="footer-logo" />
 										</a>
 									</div>
 								</div>
@@ -785,34 +852,34 @@
 							<div class="footer-item">
 								<div class="copy-right">
 									<p>
-										© Triablo 2014. All Rights Reserved
+										© Công Ty Cổ Phần Công Nghệ & Dịch Vụ S-Home.
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</footer>
 	</div>
 	<div class="modals">
 		<div class="map-view js-map-container">
-			<span class="button form-view-btn js-form-view">back to site</span>
+			<span class="button form-view-btn js-form-view">quay lại trang</span>
 			<div id="map-block">
-						
+
 			</div>
 		</div>
 
 		<div class="codal-container">
 
 			<div class="success-block popup-elem">
-				<p class="thank-popup"><span>Thank you!</span><br/> We will contact you soon.</p>
+				<p class="thank-popup"><span>Cảm ơn!</span><br /> Chúng tôi sẽ liên hệ với bạn ngay.</p>
 				<span class="close-popup"></span>
 			</div>
 
 			<div class="error-block popup-elem">
-				<p class="thank-popup"><span>Please, </span><br/>complete the form.</p>
+				<p class="thank-popup"><span>Làm ơn, </span><br />điền thông tin của bạn.</p>
 				<span class="close-popup"></span>
 			</div>
 		</div>
@@ -826,26 +893,29 @@
 							<div class="columns large-12 medium-12">
 								<dl class="select">
 									<dt></dt>
-								    <dd>
-								        <div class="options-list">
-								        	<div class="close-btn"></div>
-								        	<div class="options-wrapper">
-								        		<div class="options-container js-category-list">
-								        			
-								        		</div>
-								        	</div>
-								        </div>
-								        <div class="loader">
-								          	<div class="loader-container">
-								          		<svg id="Layer_1" x="0px" y="0px"
-								          			 width="600px" height="690px" viewBox="0 0 600 690" enable-background="new 0 0 600 690" xml:space="preserve">
-								          		<polygon fill="#f1f1f1" class="polygon" stroke="#A7A9AC" stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441 
-								          			545.441,557.559 "/>
-								          		<polygon fill="#8856A3"  class="inner" points="96.037,535.115 300,168.885 503.963,535.115 "/>
-								          		</svg>
-								          	</div>
-								        </div>
-								    </dd>
+									<dd>
+										<div class="options-list">
+											<div class="close-btn"></div>
+											<div class="options-wrapper">
+												<div class="options-container js-category-list">
+
+												</div>
+											</div>
+										</div>
+										<div class="loader">
+											<div class="loader-container">
+												<svg id="Layer_1" x="0px" y="0px" width="600px" height="690px"
+													viewBox="0 0 600 690" enable-background="new 0 0 600 690"
+													xml:space="preserve">
+													<polygon fill="#f1f1f1" class="polygon" stroke="#A7A9AC"
+														stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441 
+								          			545.441,557.559 " />
+													<polygon fill="#8856A3" class="inner"
+														points="96.037,535.115 300,168.885 503.963,535.115 " />
+												</svg>
+											</div>
+										</div>
+									</dd>
 								</dl>
 							</div>
 						</div>
@@ -868,7 +938,7 @@
 									<div class="order-list-container js-order-container">
 									</div>
 									<div class="order-total-block">
-										<p class="total l-dis-ib">Total:</p>
+										<p class="total l-dis-ib">Tổng tiền:</p>
 										<p class="total-price l-dis-ib js-total-price">
 											<span class="currency"></span>
 											<span class="value">0.00</span>
@@ -879,19 +949,24 @@
 							<div class="columns large-5 medium-5">
 								<div class="form-fields products-form-block">
 									<form action="sendmail.php" method="POST">
-										<input type="text" name="name_field" placeholder="Name" id="name_field" class="fillable-field required custom-reveal">
-										
+										<input type="text" name="name_field" placeholder="Họ & Tên" id="name_field"
+											class="fillable-field required custom-reveal">
+
 										<span class="mail-field l-pos-r">
-											<input type="text" placeholder="E-mail" name="mail_field" id="mail_field" class="fillable-field required custom-reveal">
+											<input type="text" placeholder="E-mail" name="mail_field" id="mail_field"
+												class="fillable-field required custom-reveal">
 										</span>
 
-										<input type="text" placeholder="Phone number" name="phone_field" id="phone_field" class="fillable-field required custom-reveal">
-										
-
-										<input type="text" name="prCode_field" id="prCode_field" class="fillable-field l-hidden required custom-reveal products-code-list">
+										<input type="text" placeholder="Số điện thoại" name="phone_field"
+											id="phone_field" class="fillable-field required custom-reveal">
 
 
-										<input type="submit" value="Send" class="button submit-btn checkout custom-reveal preorder-btn">
+										<input type="text" name="prCode_field" id="prCode_field"
+											class="fillable-field l-hidden required custom-reveal products-code-list">
+
+
+										<input type="submit" value="Gửi"
+											class="button submit-btn checkout custom-reveal preorder-btn">
 									</form>
 								</div>
 							</div>
@@ -906,4 +981,5 @@
 
 	<script data-main="js/script.js" src="js/lib/require.js"></script>
 </body>
+
 </html>

@@ -1,12 +1,12 @@
 /* jshint undef: true, unused: true */
 /* global define: false */
 define([
-	'products/categories/bags',
-	'products/categories/jeans',
-	'products/categories/shirts',
-	'products/categories/shoes',
-	'products/categories/shorts',
-	'products/categories/t-shirts'
+	'products/categories/may-ion-kiem',
+	'products/categories/tien-loc-ion-kiem',
+	// 'products/categories/shirts',
+	// 'products/categories/shoes',
+	// 'products/categories/shorts',
+	// 'products/categories/t-shirts'
 ], function(){
 	"use strict";
 

@@ -18,8 +18,6 @@
 .slicknav_menu:before,
 .slicknav_menu:after { content: " "; display: table; }
 .slicknav_menu:after { clear: both }
-/* IE6/7 support */
-.slicknav_menu { *zoom: 1 }
 
 /* 
     User Default Style
