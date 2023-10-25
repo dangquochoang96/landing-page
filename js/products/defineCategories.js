@@ -3,10 +3,6 @@
 define([
 	'products/categories/may-ion-kiem',
 	'products/categories/tien-loc-ion-kiem',
-	// 'products/categories/shirts',
-	// 'products/categories/shoes',
-	// 'products/categories/shorts',
-	// 'products/categories/t-shirts'
 ], function(){
 	"use strict";
 
