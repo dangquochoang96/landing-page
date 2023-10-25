@@ -68,12 +68,12 @@ define([], function () {
         code: "K8",
         details:
           "Sản phẩm K8 là model mới nhất với 8 tấm điện cực Titan phủ Platinum nguyên khối và ứng dụng công nghệ cải tiến từ Enagic, giúp tăng cường hiệu suất điện phân, tăng cường nồng độ Hydro hòa tan trong nước và mang đến các loại nước có độ pH ổn định và chính xác. Đặc biệt, khi tấm điện cực bị bám cặn, hệ thống máy sẽ tự động làm sạch bằng bộ làm sạch tự động.",
-        thumb: "k8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1208.jpg",
+        thumb: "K8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1208.jpg",
         gallery: [
-          "k8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1225.jpg",
-          "k8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1226.jpg",
-          "k8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1227.jpg",
-          "k8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1228.jpg",
+          "K8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1225.jpg",
+          "K8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1226.jpg",
+          "K8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1227.jpg",
+          "K8/may-dien-giai-ion-kiem-kangen-enagic-leveluk-k8-1228.jpg",
         ],
       },
       {
