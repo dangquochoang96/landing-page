@@ -7,7 +7,7 @@ define(['jquery', 'bPopup', 'velocity', 'velocityUi'], function($){
 		data: {
 			form: $('.form-popup-block'),
 			error: $('.error-block'),
-			succes: $('.success-block'),
+			success: $('.success-block'),
 			order: $('.order-form-block')
 		},
 
@@ -85,7 +85,7 @@ define(['jquery', 'bPopup', 'velocity', 'velocityUi'], function($){
 						if (thisForm.parent().hasClass('products-form-block')) {
 							$(window).trigger('orderSent');
 						} else {
-							GetinTouch.bindPopup(GetinTouch.data.succes);
+							GetinTouch.bindPopup(GetinTouch.data.success);
 						}
 
 						
