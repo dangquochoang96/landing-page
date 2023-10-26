@@ -1,6 +1,7 @@
 /* jshint undef: true, unused: true */
 /* global define: false */
 define([
+	'products/categories/all-product',
 	'products/categories/may-ion-kiem',
 	'products/categories/tien-loc-ion-kiem',
 ], function(){
