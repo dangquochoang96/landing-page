@@ -16,7 +16,7 @@ define(['backbone'], function(Backbone){
 				'</span>',
 				'<% } %>',
 
-				'<div class="thumbnail"><img src="<%= path %><%= thumb %>" alt=""></div>',
+				'<div class="thumbnail"><img src="<%= path %><%= thumb %>" alt="thumbnail"></div>',
 				'<div class="prod-hover-view">',
 					'<ul class="hover-controls">',
 						'<li class="view-product-gallery js-view-product" data-target="<%= cid %>">',

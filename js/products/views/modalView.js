@@ -21,7 +21,7 @@ define(['backbone', 'velocity', 'waitImg'], function(Backbone){
 						'</div>',
 						'<div class="images-list">',
 							'<% _.each(gallery, function(item){ %>',
-								'<img src="<%= path %><%= item %>" alt="">',
+								'<img src="<%= path %><%= item %>" alt="ảnh sản phẩm">',
 							'<% }) %>',
 						'</div>',
 					'</div>',
