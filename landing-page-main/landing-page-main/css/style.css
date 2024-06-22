@@ -2332,9 +2332,7 @@ nav {
   .why-eleme-block .why-us-item {
     padding: 0 !important;
   }
-  .owl-item img{
-    margin-top: 250px;
-  }
+
 }
 @media screen and (max-width: 400px) {
   .why-eleme-block {
